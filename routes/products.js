@@ -37,4 +37,23 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+// GET /api/products/category/:category - Buscar produtos por categoria
+router.get('/category/:category', async (req, res) => {
+  try {
+    const products = await db.getData('/produtos');
+     const productsByCategory = products.find(p => p.CATEGORIA == req.params.category);
+
+    if (!productsByCategory) {
+      return res.status(404).json({ error: `Produto ${req.params.category} não encontrado` });
+    }
+
+    res.json(productsByCategory);
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao buscar produto por categoria' });
+  }
+});
+
+
 module.exports = router;
