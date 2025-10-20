@@ -11,7 +11,7 @@ const db = new JsonDB(new Config('data/products', true, false, '/'));
 router.get('/', async (req, res) => {
   try {
     const products = await db.getData('/produto');
-    res.json({produtos: products});
+    res.json({produto: products});
 
   } catch (error) {
     console.error(error);
