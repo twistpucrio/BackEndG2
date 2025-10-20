@@ -5,12 +5,12 @@ const { Config } = require('node-json-db/dist/lib/JsonDBConfig');
 const router = express.Router();
 
 // Inicializar o banco de dados
-const db = new JsonDB(new Config('data/produto', true, false, '/'));
+const db = new JsonDB(new Config('data/products', true, false, '/'));
 
 // GET /api/products - Listar todos os produtos
 router.get('/', async (req, res) => {
   try {
-    const products = await db.getData('/produtos');
+    const products = await db.getData('/produto');
     res.json({produtos: products});
 
   } catch (error) {
