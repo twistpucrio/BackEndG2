@@ -40,7 +40,7 @@ router.get('/:id', async (req, res) => {
 // GET /api/products/category/:category - Buscar produtos por categoria
 router.get('/category/:category', async (req, res) => {
   try {
-    const products = await db.getData('/produtos');
+    const products = await db.getData('/produto');
      const productsByCategory = products.find(p => p.CATEGORIA == req.params.category);
 
     if (!productsByCategory) {
