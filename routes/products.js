@@ -45,7 +45,7 @@ router.get('/category/:category', async (req, res) => {
     const productsByCategory = products.filter(p => p.category == req.params.category);
 
     if (!productsByCategory) {
-      return res.status(404).json({ error: `Produto ${req.params.category} não encontrado` });
+      return res.status(404).json({ error: `Categoria ${req.params.category} não possui produtos.` });
     }
 
     res.json(productsByCategory);
