@@ -5,7 +5,7 @@ const { Config } = require('node-json-db/dist/lib/JsonDBConfig');
 const router = express.Router();
 
 // Inicializar o banco de dados
-const db = new JsonDB(new Config('data/products', true, false, '/'));
+const db = new JsonDB(new Config('data/produto', true, false, '/'));
 
 // GET /api/products - Listar todos os produtos
 router.get('/', async (req, res) => {
