@@ -11,7 +11,7 @@ const db = new JsonDB(new Config('data/products', true, false, '/'));
 router.get('/', async (req, res) => {
   try {
     const products = await db.getData('/produto');
-    res.json({produto: products});
+    res.json({ produto: products });
 
   } catch (error) {
     console.error(error);
@@ -42,7 +42,7 @@ router.get('/:id', async (req, res) => {
 router.get('/category/:category', async (req, res) => {
   try {
     const products = await db.getData('/produto');
-     const productsByCategory = products.find(p => p.category == req.params.category);
+    const productsByCategory = products.filter(p => p.category == req.params.category);
 
     if (!productsByCategory) {
       return res.status(404).json({ error: `Produto ${req.params.category} não encontrado` });
