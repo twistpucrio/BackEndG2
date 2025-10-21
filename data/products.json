@@ -13,7 +13,8 @@
             "recipiente": "cerâmica",
             "tempodequeima": "30 horas",
             "peso": "200g",
-            "objetivo":"relaxamento"
+            "objetivo":"relaxamento", 
+            "estoque": 20
         },
         {
             "id": 2,
@@ -27,7 +28,8 @@
             "recipiente": "idro",
             "tempodequeima": "20 horas",
             "peso": "150g",
-            "objetivo":"meditacao"
+            "objetivo":"meditacao",
+            "estoque": 20
         },
         {
             "id": 3,
@@ -41,7 +43,8 @@
             "recipiente": "cerâmica",
             "tempodequeima": "20 horas",
             "peso": "150g",
-            "objetivo":"relaxamento"
+            "objetivo":"relaxamento",
+            "estoque": 20
         },
         {
             "id": 4,
@@ -55,7 +58,8 @@
             "recipiente": "vidro",
             "tempodequeima": "15 horas",
             "peso": "120g",
-            "objetivo":"relaxamento"
+            "objetivo":"relaxamento", 
+            "estoque": 20
         },
         {
             "id": 5,
@@ -69,7 +73,8 @@
             "recipiente": "vidro",
             "tempodequeima": "35 horas",
             "peso": "220g",
-            "objetivo":"energizacao"
+            "objetivo":"energizacao",
+            "estoque": 20
         }, 
         {
             "id": 6,
@@ -83,7 +88,8 @@
             "recipiente": "vidro",
             "tempodequeima": "22 horas",
             "peso": "100g",
-            "objetivo":"energizacao"
+            "objetivo":"energizacao",
+            "estoque": 20
         }, 
         {
             "id": 7,
@@ -97,7 +103,8 @@
             "recipiente": "cerâmica",
             "tempodequeima": "32 horas",
             "peso": "180g",
-            "objetivo":"relaxamento"
+            "objetivo":"relaxamento",
+            "estoque": 20
         }, 
         {
             "id": 8,
@@ -111,7 +118,8 @@
             "recipiente": "cerâmica",
             "tempodequeima": "32 horas",
             "peso": "180g",
-            "objetivo":"relaxamento"
+            "objetivo":"relaxamento",
+            "estoque": 20
         }, 
         {
             "id": 9,
@@ -125,7 +133,8 @@
             "recipiente": "cerâmica",
             "tempodequeima": "30 horas",
             "peso": "200g",
-            "objetivo":"protecao"
+            "objetivo":"protecao",
+            "estoque": 20
         }, 
         {
             "id": 10,
@@ -139,7 +148,8 @@
             "recipiente": "cerâmica",
             "tempodequeima": "30 horas",
             "peso": "200g",
-            "objetivo":"protecao"
+            "objetivo":"protecao",
+            "estoque": 20
         }, 
         {
             "id": 11,
@@ -153,7 +163,8 @@
             "recipiente": "vidro",
             "tempodequeima": "20 horas",
             "peso": "150g",
-            "objetivo":"energizacao"
+            "objetivo":"energizacao",
+            "estoque": 20
         }, 
         {
             "id": 12,
@@ -167,7 +178,8 @@
             "recipiente": "vidro",
             "tempodequeima": "20 horas",
             "peso": "150g",
-            "objetivo":"relaxamento"
+            "objetivo":"relaxamento",
+            "estoque": 20
         }, 
         {
             "id": 13,
@@ -181,7 +193,8 @@
             "recipiente": "vidro",
             "tempodequeima": "24 horas",
             "peso": "200g",
-            "objetivo":"meditacao"
+            "objetivo":"meditacao",
+            "estoque": 20
         }, 
         {
             "id": 14,
@@ -195,7 +208,8 @@
             "recipiente": "vidro",
             "tempodequeima": "26 horas",
             "peso": "180g",
-            "objetivo":"energizacao"
+            "objetivo":"energizacao",
+            "estoque": 20
         }, 
         {
             "id": 15,
@@ -209,7 +223,8 @@
             "recipiente": "lata",
             "tempodequeima": "24 horas",
             "peso": "200g",
-            "objetivo":"relaxamento"
+            "objetivo":"relaxamento",
+            "estoque": 20
         },
         {
             "id": 16,
@@ -222,7 +237,9 @@
             "recipiente": "vidro", 
             "volume": "10ml",
             "aroma": "floral",
-            "objetivo": "aromaterapia"
+            "objetivo": "aromaterapia",
+            "estoque": 60
+            
         },
         {
             "id": 17,
@@ -235,7 +252,8 @@
             "recipiente": "vidro", 
             "volume": "10ml",
             "aroma": "doce",
-            "objetivo": "concentracao"
+            "objetivo": "concentracao", 
+            "estoque": 60
         },
         {
             "id": 18, 
@@ -248,7 +266,8 @@
             "recipiente": "vidro", 
             "volume": "10ml",
             "aroma": "amadeirado",
-            "objetivo": "relaxamento"
+            "objetivo": "relaxamento", 
+            "estoque": 60
         }, 
         {
             "id": 19, 
@@ -261,7 +280,8 @@
             "recipiente": "vidro", 
             "volume": "10ml",
             "aroma": "floral",
-            "objetivo": "relaxamento"
+            "objetivo": "relaxamento", 
+            "estoque": 60
         }, 
         {
             "id": 20, 
@@ -274,7 +294,8 @@
             "recipiente": "vidro", 
             "volume": "10ml",
             "aroma": "doce",
-            "objetivo": "concentracao"
+            "objetivo": "concentracao", 
+            "estoque": 60
         },
         {
             "id": 21, 
@@ -287,7 +308,8 @@
             "recipiente": "vidro", 
             "volume": "10ml",
             "aroma": "floral",
-            "objetivo": "energizacao"
+            "objetivo": "energizacao", 
+            "estoque": 60
         }, 
         {
             "id": 22, 
@@ -300,7 +322,8 @@
             "recipiente": "vidro", 
             "volume": "10ml",
             "aroma": "citrico",
-            "objetivo": "relaxamento"
+            "objetivo": "relaxamento", 
+            "estoque": 60
         }, 
         {
             "id": 23, 
@@ -313,7 +336,8 @@
             "recipiente": "vidro", 
             "volume": "10ml",
             "aroma": "citrico",
-            "objetivo": "aromaterapia"
+            "objetivo": "aromaterapia", 
+            "estoque": 60
         }, 
         {
             "id": 24, 
@@ -323,7 +347,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorMadeira.PNG",
             "recipiente": "madeira",  
-            "capacidade": "130ml"
+            "capacidade": "130ml", 
+            "estoque": 15
         }, 
         {
             "id": 25, 
@@ -333,7 +358,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorLed.png",
             "recipiente": "plastico",
-            "capacidade": "300ml"
+            "capacidade": "300ml", 
+            "estoque": 15
         }, 
         {
             "id": 26, 
@@ -343,7 +369,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorMini.png",
             "recipiente": "madeira",
-            "capacidade": "125ml"
+            "capacidade": "125ml", 
+            "estoque": 15
         }, 
         {
             "id": 27, 
@@ -353,7 +380,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorTulipa.PNG",
             "recipiente": "vidro",
-            "capacidade": "225ml"
+            "capacidade": "225ml", 
+            "estoque": 15
         }, 
         {
             "id": 28, 
@@ -365,7 +393,8 @@
             "tipo": "lavanda",
             "quantidade": "20 varetas",
             "aroma": "floral",
-            "objetivo":"meditacao"
+            "objetivo":"meditacao", 
+            "estoque": 56
         }, 
         {
             "id": 29, 
@@ -377,7 +406,8 @@
             "tipo": "sândalo",
             "quantidade": "20 varetas",
             "aroma": "amadeirado",
-            "objetivo":"concentracao"
+            "objetivo":"concentracao", 
+            "estoque": 56
         }, 
         {
             "id": 30, 
@@ -389,7 +419,8 @@
             "tipo": "jasmim",
             "quantidade": "20 varetas",
             "aroma": "floral",
-            "objetivo":"equilibrio"
+            "objetivo":"equilibrio", 
+            "estoque": 56
         }, 
         {
             "id": 31, 
@@ -401,7 +432,8 @@
             "tipo": "alecrim",
             "quantidade": "20 varetas",
             "aroma": "herbal",
-            "objetivo":"equilibrio"
+            "objetivo":"equilibrio", 
+            "estoque": 56
         }, 
         {
             "id": 32, 
@@ -413,7 +445,8 @@
             "tipo": "camomila",
             "quantidade": "20 varetas",
             "aroma": "floral",
-            "objetivo":"equilibrio"
+            "objetivo":"equilibrio", 
+            "estoque": 56
         }, 
         {
             "id": 33, 
@@ -425,7 +458,8 @@
             "tipo": "patchouli",
             "quantidade": "20 varetas",
             "aroma": "amadeirado",
-            "objetivo":"meditacao"
+            "objetivo":"meditacao", 
+            "estoque": 56
         },
         {
             "id": 34, 
@@ -435,7 +469,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorDourado.png",
             "recipiente": "plastico",
-            "quantidade": "250ml"
+            "quantidade": "250ml", 
+            "estoque": 15
         },
         {
             "id": 35, 
@@ -445,7 +480,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorElegance.png",
             "recipiente": "vidro",
-            "quantidade": "275ml"
+            "quantidade": "275ml", 
+            "estoque": 15
         },
         {
             "id": 36, 
@@ -455,7 +491,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorZen.png",
             "recipiente": "plastico",
-            "quantidade": "125ml"
+            "quantidade": "125ml", 
+            "estoque": 15
         },
         {
             "id": 37, 
@@ -465,7 +502,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorNature.png",
             "recipiente": "madeira",
-            "quantidade": "300ml"
+            "quantidade": "300ml", 
+            "estoque": 15
         },
         {
             "id": 38, 
@@ -475,7 +513,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorSerenity.png",
             "recipiente": "plastico",
-            "quantidade": "400ml"
+            "quantidade": "400ml", 
+            "estoque": 15
         },
         {
             "id": 39, 
@@ -485,7 +524,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorBliss.png",
             "recipiente": "plastico",
-            "quantidade": "225ml"
+            "quantidade": "225ml", 
+            "estoque": 15
         },
         {
             "id": 40, 
@@ -495,7 +535,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorHarmony.png",
             "recipiente": "plastico",
-            "quantidade": "350ml"
+            "quantidade": "350ml", 
+            "estoque": 15
         },
         {
             "id": 41, 
@@ -505,7 +546,8 @@
             "categoria": "difusor",
             "imagem": "../img/difusorPure.png",
             "recipiente": "madeira",
-            "quantidade": "275ml"
+            "quantidade": "275ml", 
+            "estoque": 15
         },
         {
             "id": 42,
@@ -517,7 +559,8 @@
             "tipo": "baunilha",
             "quantidade": "40 varetas",
             "aroma": "doce",
-            "objetivo":"concentracao"
+            "objetivo":"concentracao", 
+            "estoque": 67
         },
         {
             "id": 43,
@@ -529,7 +572,8 @@
             "tipo": "cânfora",
             "quantidade": "40 varetas",
             "aroma": "floral",
-            "objetivo":"concentracao"
+            "objetivo":"concentracao", 
+            "estoque": 67
         },
         {
             "id": 44,
@@ -541,7 +585,8 @@
             "tipo": "capim limão",
             "quantidade": "20 varetas",
             "aroma": "citrico",
-            "objetivo":"meditacao"
+            "objetivo":"meditacao", 
+            "estoque": 67
         },
         {
             "id": 45,
@@ -553,7 +598,8 @@
             "tipo": "canela",
             "quantidade": "40 varetas",
             "aroma": "doce",
-            "objetivo":"equilibrio"
+            "objetivo":"equilibrio", 
+            "estoque": 67
         },
         {
             "id": 46,
@@ -565,7 +611,8 @@
             "tipo": "cravo",
             "quantidade": "40 varetas",
             "aroma": "amadeirado",
-            "objetivo":"concentracao"
+            "objetivo":"concentracao", 
+            "estoque": 67
         },
         {
             "id": 47,
@@ -577,7 +624,8 @@
             "tipo": "verbena",
             "quantidade": "20 varetas",
             "aroma": "herbal",
-            "objetivo":"meditacao"
+            "objetivo":"meditacao", 
+            "estoque": 67
         }
     ]
 }
