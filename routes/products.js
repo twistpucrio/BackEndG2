@@ -57,4 +57,34 @@ router.get('/category/:category', async (req, res) => {
 });
 
 
+// DELETE /api/products/:id  - Deletar produto por ID
+
+router.delete('/:id', async (req, res) => {
+  try {
+    const products = await db.getData('/produto');
+
+    // encontra o índice do produto
+    const index = products.findIndex(p => p.id == req.params.id);
+
+    if (index === -1) {
+      return res.status(404).json({ error: `Produto ${req.params.id} não encontrado` });
+    }
+
+    // guarda o produto antes de deletar
+    const deleted = products[index];
+
+    // remove o produto do banco de dados
+    await db.delete(`/produto[${index}]`);
+
+    return res.json({
+      message: `Produto ${req.params.id} deletado com sucesso`, deleted});
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Erro ao deletar produto' });
+  }
+});
+
+
+
 module.exports = router;
